@@ -467,6 +467,8 @@ static const struct lws_mimetype {
 	{ ".xml", "application/xml" },
 	{ ".json", "application/json" },
 	{ ".mjs", "text/javascript" },
+    { ".apk", "application/octet-stream" },
+    { ".xapk", "application/octet-stream" },
 };
 
 const char *
